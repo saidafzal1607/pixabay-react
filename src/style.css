@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 12px;
+    
+}
+.navbar-brand{
+    font-family:'Courier New', Courier, monospace;
+}
+.separate{
+    height: 2em;
+    background-color: rgb(228, 226, 226);
+    width: 2px;
+}
+#photos{
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2021/06/30/13/14/ocean-6376743_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home__wrapper{
+    
+    height: 90vh;
+    text-align: center;
+}
+
+.home__title{
+    color: #fff;
+}
+.home__subtitle{
+    color: #fff;
+}
+
+.search__input{
+    border: none;
+    outline: none;
+    max-width:600px ;
+    width: 100%;
+    
+}
+
+.home__wrapper-search{
+    
+    max-width: 700px;
+    width: 100%;
+}
+
+
+.search-icon{
+    color: rgb(163, 156, 156);
+}
+.home__min-text a{
+    text-decoration: none;
+    padding: 0 3px;
+    color: rgba(223, 221, 221, 0.9);
+
+}
+
+.home__footer-link{
+    position: absolute;
+    bottom: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.home__footer-link:hover{
+    color: rgb(190, 187, 187);
+}
+
+
+
+@media screen and (max-width:1100px){
+    .navbar-list{
+        display: none;
+    }
+}
